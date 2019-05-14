@@ -5,7 +5,7 @@ RUN apt-get update && \
     apt-get install unzip && \
     apt-get clean
 
-RUN curl -sL https://github.com/NyxStudios/TShock/releases/download/v4.3.25/tshock_4.3.25.zip > /tmp/tshock.zip && \
+RUN curl -sL https://github.com/Pryaxis/TShock/releases/download/v4.3.26/tshock_4.3.26.zip > /tmp/tshock.zip && \
     unzip /tmp/tshock.zip -d /opt/tshock && \
     rm /tmp/tshock.zip
 
